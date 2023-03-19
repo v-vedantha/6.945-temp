@@ -292,10 +292,6 @@ along with SDF.  If not, see <https://www.gnu.org/licenses/>.
   (make-type 'bag (list bag:holder)))
 (set-predicate<=! bag? container?)
 
-(define tesat 10)
-
-(tesat)
-
 (define make-bag
   (type-instantiator bag?))
 
